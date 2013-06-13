@@ -1,0 +1,9 @@
+[Desktop Entry]
+Name=Worship Vector
+Comment=Tower Defense game with simplistic graphics
+Exec=worship.bin
+Terminal=false
+Type=Application
+StartupNotify=true
+Icon=wvector
+Categories=games;

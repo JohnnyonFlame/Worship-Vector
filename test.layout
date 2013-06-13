@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_layout_file>
+	<ActiveTarget name="target" />
+	<File name="gameframe.c" open="0" top="0" tabpos="9">
+		<Cursor position="156" topLine="0" />
+	</File>
+	<File name="gamegui.c" open="0" top="0" tabpos="6">
+		<Cursor position="6770" topLine="381" />
+	</File>
+	<File name="gamestate.c" open="0" top="0" tabpos="10">
+		<Cursor position="831" topLine="35" />
+	</File>
+	<File name="gamestep.c" open="1" top="0" tabpos="2">
+		<Cursor position="140" topLine="0" />
+	</File>
+	<File name="mainmenu.c" open="1" top="1" tabpos="4">
+		<Cursor position="1437" topLine="74" />
+	</File>
+	<File name="mobs.c" open="0" top="0" tabpos="7">
+		<Cursor position="1950" topLine="63" />
+	</File>
+	<File name="playeriteraction.c" open="1" top="0" tabpos="3">
+		<Cursor position="5747" topLine="217" />
+	</File>
+	<File name="postrender.c" open="0" top="0" tabpos="0">
+		<Cursor position="307" topLine="9" />
+	</File>
+	<File name="renderobjects.c" open="0" top="0" tabpos="0">
+		<Cursor position="4843" topLine="64" />
+	</File>
+	<File name="sblit.c" open="0" top="0" tabpos="0">
+		<Cursor position="68199" topLine="117" />
+	</File>
+	<File name="ssystem.c" open="0" top="0" tabpos="1">
+		<Cursor position="82" topLine="0" />
+	</File>
+	<File name="vars.c" open="0" top="0" tabpos="3">
+		<Cursor position="355" topLine="0" />
+	</File>
+	<File name="vars.h" open="0" top="0" tabpos="2">
+		<Cursor position="462" topLine="0" />
+	</File>
+	<File name="waveai.c" open="0" top="0" tabpos="11">
+		<Cursor position="2758" topLine="103" />
+	</File>
+	<File name="zlext.c" open="1" top="0" tabpos="1">
+		<Cursor position="2477" topLine="105" />
+	</File>
+	<File name="zlext\te9_tf9_hybrid_driver.h" open="0" top="0" tabpos="0">
+		<Cursor position="3239" topLine="99" />
+	</File>
+</CodeBlocks_layout_file>

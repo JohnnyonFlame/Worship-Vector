@@ -1,0 +1,552 @@
+# depslib dependency file v1.0
+1259120080 source:d:\project\caanootst\test\main.cpp
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<unistd.h>
+	<SDL.h>
+
+1247531646 c:\caanoo\gph_sdk\dge\include\sdl\sdl.h
+	"SDL_main.h"
+	"SDL_stdinc.h"
+	"SDL_audio.h"
+	"SDL_cdrom.h"
+	"SDL_cpuinfo.h"
+	"SDL_endian.h"
+	"SDL_error.h"
+	"SDL_events.h"
+	"SDL_loadso.h"
+	"SDL_mutex.h"
+	"SDL_rwops.h"
+	"SDL_thread.h"
+	"SDL_timer.h"
+	"SDL_video.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_main.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_stdinc.h
+	"SDL_config.h"
+	<sys/types.h>
+	<stdio.h>
+	<stdlib.h>
+	<stddef.h>
+	<stdarg.h>
+	<stdlib.h>
+	<malloc.h>
+	<stddef.h>
+	<stdarg.h>
+	<memory.h>
+	<string.h>
+	<strings.h>
+	<inttypes.h>
+	<stdint.h>
+	<ctype.h>
+	<iconv.h>
+	"begin_code.h"
+	<alloca.h>
+	<malloc.h>
+	<malloc.h>
+	<malloc.h>
+	<stdlib.h>
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config.h
+	"SDL_platform.h"
+	"SDL_config_amiga.h"
+	"SDL_config_dreamcast.h"
+	"SDL_config_macos.h"
+	"SDL_config_macosx.h"
+	"SDL_config_win32.h"
+	"SDL_config_os2.h"
+	"SDL_config_minimal.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_platform.h
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_amiga.h
+	"SDL_platform.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_dreamcast.h
+	"SDL_platform.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_macos.h
+	"SDL_platform.h"
+	<MacTypes.h>
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_macosx.h
+	"SDL_platform.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_win32.h
+	"SDL_platform.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_os2.h
+	"SDL_platform.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_config_minimal.h
+	"SDL_platform.h"
+	<stdarg.h>
+
+1260435650 c:\caanoo\gph_sdk\dge\include\sdl\begin_code.h
+
+1260435650 c:\caanoo\gph_sdk\dge\include\sdl\close_code.h
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_audio.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_endian.h"
+	"SDL_mutex.h"
+	"SDL_thread.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_error.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_endian.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_mutex.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_thread.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_mutex.h"
+	"begin_code.h"
+	<process.h>
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_rwops.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_cdrom.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_cpuinfo.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_events.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_active.h"
+	"SDL_keyboard.h"
+	"SDL_mouse.h"
+	"SDL_joystick.h"
+	"SDL_quit.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_active.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_keyboard.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_keysym.h"
+	"begin_code.h"
+	"close_code.h"
+
+1261116408 c:\caanoo\gph_sdk\dge\include\sdl\sdl_keysym.h
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_mouse.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_video.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_video.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"SDL_rwops.h"
+	"begin_code.h"
+	"pollux_fb_ioctl.h"
+	"close_code.h"
+
+1260435650 c:\caanoo\gph_sdk\dge\include\sdl\pollux_fb_ioctl.h
+	"pollux_fb_cfg.h"
+
+1268983498 c:\caanoo\gph_sdk\dge\include\sdl\pollux_fb_cfg.h
+
+1282628788 c:\caanoo\gph_sdk\dge\include\sdl\sdl_joystick.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_quit.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_loadso.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_timer.h
+	"SDL_stdinc.h"
+	"SDL_error.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_version.h
+	"SDL_stdinc.h"
+	"begin_code.h"
+	"close_code.h"
+
+1250847166 source:d:\project\caanootst\test\main.c
+	"vars.h"
+	"ssystem.h"
+	"gameloop.h"
+	"initgame.h"
+
+1251156852 d:\project\caanootst\test\vars.h
+	<SDL.h>
+	"types.h"
+
+1250621988 d:\project\caanootst\test\types.h
+
+1251065372 d:\project\caanootst\test\ssystem.h
+
+1250531207 d:\project\caanootst\test\gameloop.h
+
+1250847083 d:\project\caanootst\test\initgame.h
+
+1289094716 source:d:\project\caanootst\test\gameframe.c
+	"vars.h"
+	"zmath.h"
+	"postrender.h"
+	"gamestate.h"
+
+1251023100 d:\project\caanootst\test\zmath.h
+
+1250611446 d:\project\caanootst\test\postrender.h
+
+1250864795 d:\project\caanootst\test\gamestate.h
+
+1250539206 source:d:\project\caanootst\test\gameloop.c
+	"ssystem.h"
+	"gameframe.h"
+	"vars.h"
+
+1250537151 d:\project\caanootst\test\gameframe.h
+
+1251477008 source:d:\project\caanootst\test\gameproc.c
+	"vars.h"
+	"sblit.h"
+	"mobs.h"
+	"zmath.h"
+
+1250929320 d:\project\caanootst\test\sblit.h
+
+1251449324 d:\project\caanootst\test\mobs.h
+
+1251477972 source:d:\project\caanootst\test\gamestate.c
+	"vars.h"
+	"sblit.h"
+	"ssystem.h"
+	"mainmenu.h"
+	"gameproc.h"
+
+1250931342 d:\project\caanootst\test\mainmenu.h
+
+1250943863 d:\project\caanootst\test\gameproc.h
+
+1250876178 source:d:\project\caanootst\test\initgame.c
+	"vars.h"
+	<stdio.h>
+
+1251477962 source:d:\project\caanootst\test\mainmenu.c
+	"vars.h"
+	"sblit.h"
+	"zmath.h"
+	"ssystem.h"
+
+1251172178 source:d:\project\caanootst\test\mobs.c
+	"vars.h"
+	"zmath.h"
+
+1250610410 source:d:\project\caanootst\test\palette.c
+	"vars.h"
+
+1250615634 source:d:\project\caanootst\test\postrender.c
+	"vars.h"
+	"zmath.h"
+
+1251080040 source:d:\project\caanootst\test\sblit.c
+	"vars.h"
+
+1289096571 source:d:\project\caanootst\test\ssystem.c
+	<SDL_Mixer.h>
+	<string.h>
+	<SDL.h>
+	"vars.h"
+	"ssystem.h"
+	"palette.h"
+	"sys/mman.h"
+	"fcntl.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_mixer.h
+	"SDL_types.h"
+	"SDL_rwops.h"
+	"SDL_audio.h"
+	"SDL_endian.h"
+	"SDL_version.h"
+	"begin_code.h"
+	"close_code.h"
+
+1260435348 c:\caanoo\gph_sdk\dge\include\sdl\sdl_types.h
+	"SDL_stdinc.h"
+
+1250585967 d:\project\caanootst\test\palette.h
+
+1251156852 source:d:\project\caanootst\test\vars.c
+	"vars.h"
+
+1251023100 source:d:\project\caanootst\test\zmath.c
+	"math.h"
+	"stdlib.h"
+	"vars.h"
+
+1254667386 source:d:\project\caanootst\vorship\gameframe.c
+	"vars.h"
+	"zmath.h"
+	"postrender.h"
+	"gamestate.h"
+
+1290797845 d:\project\caanootst\vorship\vars.h
+	<SDL.h>
+	"types.h"
+
+1254747278 d:\project\caanootst\vorship\types.h
+
+1254635662 d:\project\caanootst\vorship\zmath.h
+
+1250611446 d:\project\caanootst\vorship\postrender.h
+
+1250864795 d:\project\caanootst\vorship\gamestate.h
+
+1290470586 source:d:\project\caanootst\vorship\gamegui.c
+	"vars.h"
+	"sblit.h"
+
+1254768656 d:\project\caanootst\vorship\sblit.h
+
+1250539206 source:d:\project\caanootst\vorship\gameloop.c
+	"ssystem.h"
+	"gameframe.h"
+	"vars.h"
+
+1251065372 d:\project\caanootst\vorship\ssystem.h
+
+1250537151 d:\project\caanootst\vorship\gameframe.h
+
+1255218912 source:d:\project\caanootst\vorship\gamestate.c
+	"vars.h"
+	"ssystem.h"
+	"gamestep.h"
+	"mainmenu.h"
+
+1254667696 d:\project\caanootst\vorship\gamestep.h
+
+1255215006 d:\project\caanootst\vorship\mainmenu.h
+
+1255191922 source:d:\project\caanootst\vorship\gamestep.c
+	"vars.h"
+	"rendermap.h"
+	"renderobjects.h"
+
+1254668116 d:\project\caanootst\vorship\rendermap.h
+
+1254857898 d:\project\caanootst\vorship\renderobjects.h
+
+1254767238 source:d:\project\caanootst\vorship\gpu3d.c
+	"vars.h"
+
+1254727920 source:d:\project\caanootst\vorship\initgame.c
+	<stdio.h>
+	"vars.h"
+	"mapdata.h"
+
+1254727640 d:\project\caanootst\vorship\mapdata.h
+
+1250847166 source:d:\project\caanootst\vorship\main.c
+	"vars.h"
+	"ssystem.h"
+	"gameloop.h"
+	"initgame.h"
+
+1250531207 d:\project\caanootst\vorship\gameloop.h
+
+1250847083 d:\project\caanootst\vorship\initgame.h
+
+1290800180 source:d:\project\caanootst\vorship\mainmenu.c
+	"vars.h"
+	"sblit.h"
+
+1255219522 source:d:\project\caanootst\vorship\mapdata.c
+	"vars.h"
+
+1290470586 source:d:\project\caanootst\vorship\mobs.c
+	"vars.h"
+	"gpu3d.h"
+
+1254667386 d:\project\caanootst\vorship\gpu3d.h
+
+1254637184 source:d:\project\caanootst\vorship\palette.c
+	"vars.h"
+
+1290799848 source:d:\project\caanootst\vorship\playeriteraction.c
+	"vars.h"
+	"vlines.h"
+	"waveai.h"
+
+1255140156 d:\project\caanootst\vorship\vlines.h
+
+1255142135 d:\project\caanootst\vorship\waveai.h
+
+1290795176 source:d:\project\caanootst\vorship\postrender.c
+	"vars.h"
+	"zmath.h"
+	"sblit.h"
+	"gpu3d.h"
+
+1255185646 source:d:\project\caanootst\vorship\rendermap.c
+	"vars.h"
+	"gpu3d.h"
+	"sblit.h"
+
+1255192158 source:d:\project\caanootst\vorship\renderobjects.c
+	"vars.h"
+	"mobs.h"
+
+1255186876 d:\project\caanootst\vorship\mobs.h
+
+1254768798 source:d:\project\caanootst\vorship\sblit.c
+	"vars.h"
+	"zmath.h"
+
+1290797845 source:d:\project\caanootst\vorship\vars.c
+	"vars.h"
+
+1255186114 source:d:\project\caanootst\vorship\vlines.c
+	"vars.h"
+	"zmath.h"
+
+1290470586 source:d:\project\caanootst\vorship\waveai.c
+	"vars.h"
+	"mobs.h"
+
+1254636302 source:d:\project\caanootst\vorship\zmath.c
+	"math.h"
+	"stdlib.h"
+	"vars.h"
+
+1290789879 source:d:\project\caanootst\vorship\ssystem.c
+	<SDL_Mixer.h>
+	<string.h>
+	<SDL.h>
+	"vars.h"
+	"ssystem.h"
+	"palette.h"
+	"zmath.h"
+	"zlext.h"
+	"sys/mman.h"
+	"fcntl.h"
+
+1250585967 d:\project\caanootst\vorship\palette.h
+
+1280818364 d:\project\caanootst\vorship\simple_isa1200if.h
+
+1290784236 d:\project\caanootst\vorship\zlext.h
+
+1290799521 source:d:\project\caanootst\vorship\zlext.c
+	"vars.h"
+	<stdio.h>
+	<sys/types.h>
+	<sys/stat.h>
+	<sys/ioctl.h>
+	<fcntl.h>
+	<unistd.h>
+	"zlext/simple_isa1200if.h"
+	"zlext/te9_tf9_hybrid_driver.h"
+	"zlext/te9_tf9_regs.h"
+	<sys/types.h>
+	<sys/ipc.h>
+	<sys/sem.h>
+	<sys/wait.h>
+	<sys/poll.h>
+	<signal.h>
+	<errno.h>
+
+1280818364 d:\project\caanootst\vorship\zlext\simple_isa1200if.h
+
+1268095682 source:d:\project\caanootst\vorship\zlext\te9_tf9_hybrid_driver.c
+	"te9_tf9_hybrid_driver.h"
+
+1268095678 d:\project\caanootst\vorship\zlext\te9_tf9_hybrid_driver.h
+	<stdio.h>
+	<fcntl.h>
+	<stdlib.h>
+	<unistd.h>
+	<stdint.h>
+	<sys/ioctl.h>
+	<errno.h>
+	"i2c-dev.h"
+	<windows.h>
+	<windows.h>
+	"task.h"
+	"sleep.h"
+	"dog.h"
+	"bio.h"
+	"gpio_int.h"
+	"pm.h"
+	"i2c.h"
+	"accel_task.h"
+	"accel_types.h"
+	"ui.h"
+	"i2c.h"
+	<math.h>
+	"KxCriticalSection.h"
+	<string.h>
+	"def.h"
+	"option.h"
+	"2440addr.h"
+	"2440lib.h"
+	"2440slib.h"
+	"IIC.h"
+	"eint.h"
+
+1262941746 d:\project\caanootst\vorship\zlext\i2c-dev.h
+	<linux/types.h>
+	<sys/ioctl.h>
+
+1281399902 d:\project\caanootst\vorship\zlext\te9_tf9_regs.h
+

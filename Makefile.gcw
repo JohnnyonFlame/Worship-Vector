@@ -1,0 +1,70 @@
+TOOLCHAIN_SYSROOT = /opt/gcw0-toolchain/usr/mipsel-gcw0-linux-uclibc/sysroot/usr
+CC = mipsel-linux-gcc
+
+#DEBUG=1
+
+EXE = worship.bin
+OPK = wvector.opk
+
+CFLAGS = -O2 -fomit-frame-pointer -ffunction-sections -ffast-math -fsingle-precision-constant -DGCW
+CFLAGS += -D__BUILDDATE=\"$(shell date +%d-%b-%Y)\"
+LDFLAGS = -flto
+INCLUDE = -I$(TOOLCHAIN_SYSROOT)/include -I$(TOOLCHAIN_SYSROOT)/include/SDL
+
+ifdef DEBUG
+ CFLAGS += -g
+else
+ CFLAGS += -G0
+endif
+
+LIB = -DGCW -lSDL -lSDL_mixer
+
+HOST=mipsel-linux-
+
+CC = $(HOST)gcc
+STRIP = $(HOST)strip
+
+SRC = 	gameframe.c \
+	gamestate.c \
+	initgame.c \
+	mapdata.c \
+	playeriteraction.c \
+	renderobjects.c \
+	vars.c \
+	gamegui.c \
+	gamestep.c \
+	main.c \
+	mobs.c \
+	postrender.c \
+	sblit.c \
+	vlines.c \
+	zmath.c \
+	gameloop.c \
+	gpu3d.c \
+	mainmenu.c \
+	palette.c \
+	rendermap.c \
+	ssystem.c \
+	waveai.c
+CFLAGS += $(DEFS)
+
+OBJ = $(SRC:.c=.o)
+
+all : $(SRC) $(EXE)
+
+$(EXE): $(OBJ)
+	$(CC) $(LDFLAGS) $(OBJ) $(LIB) -o $@
+ifndef DEBUG
+	$(STRIP) $(EXE)
+endif
+
+.c.o:
+	$(CC) $(CFLAGS) $(INCLUDE) -c $< -o $@
+
+clean:
+	rm -rf $(OBJ) $(EXE)
+	
+redist: all
+	@chmod +x $(EXE)
+	@rm -f $(OPK)
+	mksquashfs redist/* $(EXE) $(OPK)
