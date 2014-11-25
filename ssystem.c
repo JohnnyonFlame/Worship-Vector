@@ -79,12 +79,12 @@ void InitGameCore(void) {
 
 #ifdef GP2X
 	SDL_ShowCursor(SDL_DISABLE);
-	screen = SDL_SetVideoMode (320, 240, 8, SDL_HWSURFACE || SDL_DOUBLEBUF);
+	screen = SDL_SetVideoMode (320, 240, 8, SDL_HWSURFACE | SDL_DOUBLEBUF);
 #endif
 
 #if defined(WIN32) || defined(GCW) || defined(LINUX)
 	SDL_ShowCursor(SDL_DISABLE);
-	screen = SDL_SetVideoMode (320, 240, 32, SDL_SWSURFACE);
+	screen = SDL_SetVideoMode (320, 240, 32, SDL_HWSURFACE | SDL_DOUBLEBUF);
 	//screen = SDL_SetVideoMode (640 ,480, 32, SDL_HWSURFACE | SDL_FULLSCREEN);
 #endif
 	InitPalette();

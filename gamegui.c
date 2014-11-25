@@ -339,7 +339,7 @@ void RenderGameGUI(void) {
 				s_drawtext(dr[2] - 16, dr[1] + 2, 14);
 			}
 			if (towermenu < 5) {
-				l_textstring = sprintf(s_textstring, "X");
+				l_textstring = sprintf(s_textstring, "B");
 				s_drawtext(dr[2] - 16, dr[3] - 18, 14);
 			}
 		}
